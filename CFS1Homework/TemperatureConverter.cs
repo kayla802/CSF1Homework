@@ -30,12 +30,12 @@ namespace CFS1Homework
                         break;
                     case 2:
                         Console.WriteLine("\nPlease enter the temperature in degrees fahrenheit: ");
-                        double fahrenhetiToCelsius = (double.Parse(Console.ReadLine()) - 32) / 1.8;
-                        Console.WriteLine("The temperature in Celsius is " + fahrenhetiToCelsius  + "degrees\n");
+                        double fahrenheitToCelsius = (double.Parse(Console.ReadLine()) - 32) / 1.8;
+                        Console.WriteLine("The temperature in Celsius is " + fahrenheitToCelsius + "degrees\n");
                         Console.WriteLine();
                         break;
                     case 3:
-                        Console.WriteLine("\nBye\n!");
+                        Console.WriteLine("\nBye then!!\n");
                         repeat = false;
                         break;
                     default:
