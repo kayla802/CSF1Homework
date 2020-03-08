@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CFS1Homework.MadLib</StartupObject>
+    <StartupObject>CFS1Homework.TemperatureConverter</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -55,6 +55,7 @@
     <Compile Include="MadLib.cs" />
     <Compile Include="MinMaxAvg.cs" />
     <Compile Include="Powers.cs" />
+    <Compile Include="TemperatureConverter.cs" />
     <Compile Include="Variables.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
